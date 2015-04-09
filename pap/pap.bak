@@ -1,0 +1,477 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pap-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "MC34063 DC 3.3v"
+Date ""
+Rev ""
+Comp "PAP Mechatronic Technology Company Limited"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MC34063 U1
+U 1 1 55252E16
+P 6000 3225
+F 0 "U1" H 6150 3575 60  0000 L CNN
+F 1 "MC34063" H 6100 2875 60  0000 L CNN
+F 2 "Housings_DIP:DIP-8__300" H 6000 3225 60  0001 C CNN
+F 3 "" H 6000 3225 60  0000 C CNN
+	1    6000 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 55252E98
+P 5475 2725
+F 0 "R1" V 5555 2725 50  0000 C CNN
+F 1 "1.8" V 5475 2725 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5405 2725 30  0001 C CNN
+F 3 "" H 5475 2725 30  0000 C CNN
+	1    5475 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 55252EEF
+P 5150 3650
+F 0 "C1" H 5175 3750 50  0000 L CNN
+F 1 "220pF" H 5250 3650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5188 3500 30  0001 C CNN
+F 3 "" H 5150 3650 60  0000 C CNN
+	1    5150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 55252F69
+P 7225 4400
+F 0 "C3" H 7250 4500 50  0000 L CNN
+F 1 "33uF" H 7250 4300 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2" H 7263 4250 30  0001 C CNN
+F 3 "" H 7225 4400 60  0000 C CNN
+	1    7225 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D1
+U 1 1 552530F8
+P 7625 3275
+F 0 "D1" H 7625 3375 50  0000 C CNN
+F 1 "D_Schottky" H 7625 3175 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 7625 3275 60  0001 C CNN
+F 3 "" H 7625 3275 60  0000 C CNN
+	1    7625 3275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 55253230
+P 7225 3775
+F 0 "L1" V 7175 3775 50  0000 C CNN
+F 1 "330uH" V 7325 3775 50  0000 C CNN
+F 2 "Air_Coils_SML_NEOSID:Neosid_Air-Coil_SML_1turn_HDM0131A" H 7225 3775 60  0001 C CNN
+F 3 "" H 7225 3775 60  0000 C CNN
+	1    7225 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 55253520
+P 1400 2600
+F 0 "#FLG1" H 1400 2695 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 2780 50  0000 C CNN
+F 2 "" H 1400 2600 60  0000 C CNN
+F 3 "" H 1400 2600 60  0000 C CNN
+	1    1400 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 5525353E
+P 1800 2600
+F 0 "#FLG2" H 1800 2695 50  0001 C CNN
+F 1 "PWR_FLAG" H 1800 2780 50  0000 C CNN
+F 2 "" H 1800 2600 60  0000 C CNN
+F 3 "" H 1800 2600 60  0000 C CNN
+	1    1800 2600
+	1    0    0    -1  
+$EndComp
+Text Label 6000 3725 0    60   ~ 0
+GND
+Text Label 5150 3800 0    60   ~ 0
+GND
+Text Label 7775 3275 0    60   ~ 0
+GND
+Text Label 5150 3075 1    60   ~ 0
+PIN7
+Text Label 6975 3025 0    60   ~ 0
+PIN7
+$Comp
+L R R3
+U 1 1 55254CD3
+P 7025 3575
+F 0 "R3" V 7105 3575 50  0000 C CNN
+F 1 "13k" V 7025 3575 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6955 3575 30  0001 C CNN
+F 3 "" H 7025 3575 30  0000 C CNN
+	1    7025 3575
+	1    0    0    -1  
+$EndComp
+Text Label 7025 3725 3    60   ~ 0
+GND
+Text Label 6850 3275 0    60   ~ 0
+PIN2
+Text Label 7225 4550 2    60   ~ 0
+GND
+$Comp
+L INDUCTOR L2
+U 1 1 55256C7B
+P 7725 4175
+F 0 "L2" V 7675 4175 50  0000 C CNN
+F 1 "1uH" V 7825 4175 50  0000 C CNN
+F 2 "Air_Coils_SML_NEOSID:Neosid_Air-Coil_SML_1turn_HDM0131A" H 7725 4175 60  0001 C CNN
+F 3 "" H 7725 4175 60  0000 C CNN
+	1    7725 4175
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C4
+U 1 1 55256CDB
+P 8025 4400
+F 0 "C4" H 8050 4500 50  0000 L CNN
+F 1 "100uF" H 8050 4300 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5" H 8063 4250 30  0001 C CNN
+F 3 "" H 8025 4400 60  0000 C CNN
+	1    8025 4400
+	1    0    0    -1  
+$EndComp
+Text Label 8275 4175 0    60   ~ 0
+3.3v
+Text Label 8025 4550 2    60   ~ 0
+GND
+$Comp
+L R R2
+U 1 1 55257544
+P 6850 4025
+F 0 "R2" V 6930 4025 50  0000 C CNN
+F 1 "22k" V 6850 4025 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6780 4025 30  0001 C CNN
+F 3 "" H 6850 4025 30  0000 C CNN
+	1    6850 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 55258773
+P 6250 2725
+F 0 "C2" H 6275 2825 50  0000 L CNN
+F 1 "100uF" H 6275 2625 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5" H 6288 2575 30  0001 C CNN
+F 3 "" H 6250 2725 60  0000 C CNN
+	1    6250 2725
+	0    -1   -1   0   
+$EndComp
+Text Label 6400 2725 0    60   ~ 0
+GND
+Text Label 6000 2725 1    60   ~ 0
+VCC
+Text Label 2350 2925 2    60   ~ 0
+220v
+$Comp
+L CP C5
+U 1 1 55257352
+P 4375 2900
+F 0 "C5" H 4400 3000 50  0000 L CNN
+F 1 "470uF" H 4400 2800 50  0000 L CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5" H 4413 2750 30  0001 C CNN
+F 3 "" H 4375 2900 60  0000 C CNN
+	1    4375 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 55258C01
+P 1625 2900
+F 0 "P2" H 1625 3050 50  0000 C CNN
+F 1 "CONN_01X02" V 1725 2900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 1625 2900 60  0001 C CNN
+F 3 "" H 1625 2900 60  0000 C CNN
+	1    1625 2900
+	0    -1   1    0   
+$EndComp
+Text Label 1675 2700 0    60   ~ 0
+N
+Text Label 1575 2700 0    60   ~ 0
+L
+Text Label 2200 2700 0    60   ~ 0
+L
+Text Label 2200 3100 0    60   ~ 0
+N
+Text Label 4375 2750 1    60   ~ 0
+GND
+Text Label 4375 3050 3    60   ~ 0
+VCC
+Wire Wire Line
+	5150 3375 5150 3500
+Wire Wire Line
+	6850 3275 7475 3275
+Wire Wire Line
+	5150 3075 5150 2725
+Wire Wire Line
+	5150 2725 5325 2725
+Wire Wire Line
+	5625 2725 6100 2725
+Wire Wire Line
+	6850 3125 6850 3025
+Wire Wire Line
+	6850 3025 6975 3025
+Wire Wire Line
+	6850 3425 7025 3425
+Wire Wire Line
+	7225 3275 7225 3475
+Connection ~ 7225 3275
+Wire Wire Line
+	7225 4075 7225 4250
+Wire Wire Line
+	6850 4175 7425 4175
+Connection ~ 7225 4175
+Wire Wire Line
+	8025 4175 8275 4175
+Wire Wire Line
+	8025 4175 8025 4250
+Wire Wire Line
+	6850 3425 6850 3875
+Connection ~ 6000 2725
+Wire Wire Line
+	1400 2600 1400 2700
+Wire Wire Line
+	1400 2700 1575 2700
+Wire Wire Line
+	1675 2700 1800 2700
+Wire Wire Line
+	1800 2700 1800 2600
+Wire Wire Line
+	3000 2700 3000 2800
+Wire Wire Line
+	3000 2800 3075 2800
+Wire Wire Line
+	3000 3100 3000 3000
+Wire Wire Line
+	3000 3000 3075 3000
+Wire Wire Line
+	4075 3000 4075 3050
+Wire Wire Line
+	4075 3050 4375 3050
+Wire Wire Line
+	4075 2800 4075 2750
+Wire Wire Line
+	4075 2750 4375 2750
+NoConn ~ 3000 2900
+$Comp
+L DS107S_SMD BR1
+U 1 1 55262DB8
+P 3575 2900
+F 0 "BR1" H 3575 2500 60  0000 C CNN
+F 1 "DS107S_SMD" H 3575 2600 60  0000 C CNN
+F 2 "" H 3375 3150 60  0000 C CNN
+F 3 "" H 3375 3150 60  0000 C CNN
+	1    3575 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRANSFO_3PINS T1
+U 1 1 552638A3
+P 2600 2900
+F 0 "T1" H 2600 3150 50  0000 C CNN
+F 1 "TRANSFO_3PINS" H 2600 2600 50  0000 C CNN
+F 2 "" H 2600 2900 60  0000 C CNN
+F 3 "" H 2600 2900 60  0000 C CNN
+	1    2600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266_07 H1
+U 1 1 55261556
+P 4000 5050
+F 0 "H1" H 4000 4200 60  0000 C CNN
+F 1 "ESP8266_07" H 4000 4300 60  0000 C CNN
+F 2 "" H 4000 5050 60  0000 C CNN
+F 3 "" H 4000 5050 60  0000 C CNN
+	1    4000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOC3023M U3
+U 1 1 552618BD
+P 2775 5100
+F 0 "U3" H 2565 5290 50  0000 L CNN
+F 1 "MOC3023M" H 2775 5300 50  0000 L CNN
+F 2 "DIP-6" H 2575 4900 50  0000 L CIN
+F 3 "" H 2750 5100 50  0000 L CNN
+	1    2775 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TRIAC U2
+U 1 1 55261A2C
+P 1750 5200
+F 0 "U2" H 1500 5550 50  0000 C CNN
+F 1 "TRIAC" H 1450 4950 50  0000 C CNN
+F 2 "" H 1750 5200 60  0000 C CNN
+F 3 "" H 1750 5200 60  0000 C CNN
+	1    1750 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 55261DD5
+P 2750 4600
+F 0 "SW1" H 2900 4710 50  0000 C CNN
+F 1 "SW_PUSH" H 2750 4520 50  0000 C CNN
+F 2 "" H 2750 4600 60  0000 C CNN
+F 3 "" H 2750 4600 60  0000 C CNN
+	1    2750 4600
+	1    0    0    -1  
+$EndComp
+Text Label 3350 5600 2    60   ~ 0
+3.3v
+Text Label 4650 5600 0    60   ~ 0
+GND
+Wire Wire Line
+	4650 5500 4650 5600
+$Comp
+L CONN_01X03 P4
+U 1 1 552636CA
+P 5175 4700
+F 0 "P4" H 5175 4900 50  0000 C CNN
+F 1 "CONN_01X03" V 5275 4700 50  0000 C CNN
+F 2 "" H 5175 4700 60  0000 C CNN
+F 3 "" H 5175 4700 60  0000 C CNN
+	1    5175 4700
+	1    0    0    -1  
+$EndComp
+Text Label 4975 4800 2    60   ~ 0
+GND
+Wire Wire Line
+	4650 4600 4975 4600
+Wire Wire Line
+	4650 4700 4975 4700
+Wire Wire Line
+	3050 4600 3350 4600
+Text Label 2450 4600 2    60   ~ 0
+GND
+$Comp
+L R R5
+U 1 1 55264956
+P 3175 4375
+F 0 "R5" V 3255 4375 50  0000 C CNN
+F 1 "220" V 3175 4375 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3105 4375 30  0001 C CNN
+F 3 "" H 3175 4375 30  0000 C CNN
+	1    3175 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 4525 3175 4600
+Connection ~ 3175 4600
+Text Label 3175 4225 0    60   ~ 0
+3.3v
+Wire Wire Line
+	3350 5500 3350 5600
+$Comp
+L JUMPER3 JP1
+U 1 1 55265835
+P 5125 5350
+F 0 "JP1" H 5175 5250 50  0000 L CNN
+F 1 "JUMPER3" H 5125 5450 50  0000 C BNN
+F 2 "" H 5125 5350 60  0000 C CNN
+F 3 "" H 5125 5350 60  0000 C CNN
+	1    5125 5350
+	0    1    1    0   
+$EndComp
+Text Label 5125 5100 0    60   ~ 0
+3.3v
+Text Label 5125 5600 0    60   ~ 0
+GND
+Wire Wire Line
+	4650 5100 5025 5100
+Wire Wire Line
+	5025 5100 5025 5350
+Text Label 3075 5000 0    60   ~ 0
+GND
+Wire Wire Line
+	3350 5200 3075 5200
+Wire Wire Line
+	2475 5000 2250 5000
+$Comp
+L R R4
+U 1 1 552670EA
+P 2200 5600
+F 0 "R4" V 2280 5600 50  0000 C CNN
+F 1 "220" V 2200 5600 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2130 5600 30  0001 C CNN
+F 3 "" H 2200 5600 30  0000 C CNN
+	1    2200 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 5600 2050 5600
+Wire Wire Line
+	2350 5600 2350 5200
+Wire Wire Line
+	2350 5200 2475 5200
+$Comp
+L CONN_01X02 P3
+U 1 1 55267553
+P 1075 5300
+F 0 "P3" H 1075 5450 50  0000 C CNN
+F 1 "CONN_01X02" V 1175 5300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 1075 5300 60  0001 C CNN
+F 3 "" H 1075 5300 60  0000 C CNN
+	1    1075 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 5250 1275 4950
+Wire Wire Line
+	1275 4950 1750 4950
+Wire Wire Line
+	1275 5350 1275 5600
+Connection ~ 1750 5600
+$EndSCHEMATC

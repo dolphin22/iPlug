@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 4/9/2015 12:36:08 PM
+
+BeginCmp
+TimeStamp = /55262DB8;
+Reference = BR1;
+ValeurCmp = DS107S_SMD;
+IdModule  = papLib:DS107S_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /55252EEF;
+Reference = C1;
+ValeurCmp = 220pF;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55258773;
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55252F69;
+Reference = C3;
+ValeurCmp = 33uF;
+IdModule  = Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55256CDB;
+Reference = C4;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55257352;
+Reference = C5;
+ValeurCmp = 470uF;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_20x10mm_RM5;
+EndCmp
+
+BeginCmp
+TimeStamp = /552530F8;
+Reference = D1;
+ValeurCmp = D_Schottky;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /55253230;
+Reference = L1;
+ValeurCmp = 330uH;
+IdModule  = Inductors:SELF-WE-PD-XXL;
+EndCmp
+
+BeginCmp
+TimeStamp = /55256C7B;
+Reference = L2;
+ValeurCmp = 1uH;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /552556D2;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = Connect:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55258C01;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Connect:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55252E98;
+Reference = R1;
+ValeurCmp = 1.8;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55257544;
+Reference = R2;
+ValeurCmp = 22k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55254CD3;
+Reference = R3;
+ValeurCmp = 13k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /552638A3;
+Reference = T1;
+ValeurCmp = TRANSFO_3PINS;
+IdModule  = papLib:ZN28150BA2-12V-1.2W;
+EndCmp
+
+BeginCmp
+TimeStamp = /55252E16;
+Reference = U1;
+ValeurCmp = MC34063;
+IdModule  = Housings_DIP:DIP-8__300;
+EndCmp
+
+EndListe

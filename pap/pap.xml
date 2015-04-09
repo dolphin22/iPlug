@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Program Files/KiCad/pap/pap.sch</source>
+    <date>4/9/2015 10:37:00 AM</date>
+    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MC34063 DC 3.3v</title>
+        <company>PAP Mechatronic Technology Company Limited</company>
+        <rev/>
+        <date/>
+        <source>pap.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MC34063</value>
+      <footprint>Housings_DIP:DIP-8__300</footprint>
+      <libsource lib="conn" part="MC34063"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55252E16</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.8</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55252E98</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220pF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55252EEF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>33uF</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55252F69</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>552530F8</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>330uH</value>
+      <footprint>Air_Coils_SML_NEOSID:Neosid_Air-Coil_SML_1turn_HDM0131A</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55253230</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>13k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55254CD3</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>552556D2</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>1uH</value>
+      <footprint>Air_Coils_SML_NEOSID:Neosid_Air-Coil_SML_1turn_HDM0131A</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55256C7B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100uF</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55256CDB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55257544</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55258773</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TRANSFO</value>
+      <libsource lib="device" part="TRANSFO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55256555</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470uF</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55257352</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55258C01</tstamp>
+    </comp>
+    <comp ref="BR1">
+      <value>DS107S_SMD</value>
+      <libsource lib="pap-cache" part="DS107S_SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5525FBA4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TRANSFO">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRANSFO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="MC34063">
+      <description>1.5A step up/down/inverting switching regulator</description>
+      <docs>regulator/mc34063.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC34063</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Sw_Coll" type="input"/>
+        <pin num="2" name="Sw_Emit" type="input"/>
+        <pin num="3" name="Tim_Cap" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="V_Sense" type="input"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="I_Sense" type="input"/>
+        <pin num="8" name="Drv_Coll" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pap-cache" part="DS107S_SMD">
+      <fields>
+        <field name="Reference">BR</field>
+        <field name="Value">DS107S_SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In1" type="input"/>
+        <pin num="2" name="In2" type="input"/>
+        <pin num="3" name="Out+" type="input"/>
+        <pin num="4" name="Out-" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="pap-cache">
+      <uri>C:\Program Files\KiCad\pap\pap-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(BR1-Pad1)">
+      <node ref="BR1" pin="1"/>
+      <node ref="T1" pin="4"/>
+    </net>
+    <net code="2" name="/PIN7">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(BR1-Pad2)">
+      <node ref="BR1" pin="2"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="5" name="/GND">
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="BR1" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="/VCC">
+      <node ref="U1" pin="6"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="BR1" pin="3"/>
+    </net>
+    <net code="8" name="/N">
+      <node ref="P2" pin="2"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="10" name="/3.3v">
+      <node ref="L2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C3-Pad1)">
+      <node ref="L2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="12" name="/PIN2">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="13" name="/L">
+      <node ref="T1" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+  </nets>
+</export>
