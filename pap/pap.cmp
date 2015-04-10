@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 4/9/2015 12:36:08 PM
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 4/10/2015 3:47:02 PM
 
 BeginCmp
 TimeStamp = /55262DB8;
@@ -8,45 +8,52 @@ IdModule  = papLib:DS107S_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /55252EEF;
+TimeStamp = /55257352;
 Reference = C1;
-ValeurCmp = 220pF;
-IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+ValeurCmp = 470uF;
+IdModule  = papLib:C_Radial_D8_L11.5_P3.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /55258773;
+TimeStamp = /55252EEF;
 Reference = C2;
-ValeurCmp = 100uF;
-IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+ValeurCmp = 220pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /55252F69;
 Reference = C3;
 ValeurCmp = 33uF;
-IdModule  = Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5;
+IdModule  = Capacitors_SMD:c_elec_5x5.8;
 EndCmp
 
 BeginCmp
 TimeStamp = /55256CDB;
 Reference = C4;
 ValeurCmp = 100uF;
-IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
-EndCmp
-
-BeginCmp
-TimeStamp = /55257352;
-Reference = C5;
-ValeurCmp = 470uF;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_20x10mm_RM5;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
 TimeStamp = /552530F8;
 Reference = D1;
 ValeurCmp = D_Schottky;
-IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+IdModule  = Diodes_SMD:Diode-DO-214BA;
+EndCmp
+
+BeginCmp
+TimeStamp = /55261556;
+Reference = H1;
+ValeurCmp = ESP8266_07;
+IdModule  = papLib:ESP8266_07;
+EndCmp
+
+BeginCmp
+TimeStamp = /55265835;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -64,7 +71,7 @@ IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /552556D2;
+TimeStamp = /55267553;
 Reference = P1;
 ValeurCmp = CONN_01X02;
 IdModule  = Connect:AK300-2;
@@ -78,24 +85,52 @@ IdModule  = Connect:AK300-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /55252E98;
+TimeStamp = /552636CA;
+Reference = P3;
+ValeurCmp = CONN_01X03;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /552670EA;
 Reference = R1;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55264956;
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55252E98;
+Reference = R3;
 ValeurCmp = 1.8;
 IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55257544;
-Reference = R2;
+Reference = R4;
 ValeurCmp = 22k;
-IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /55254CD3;
-Reference = R3;
+Reference = R5;
 ValeurCmp = 13k;
-IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55261DD5;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = papLib:RST_SWITCH_SMD;
 EndCmp
 
 BeginCmp
@@ -106,10 +141,24 @@ IdModule  = papLib:ZN28150BA2-12V-1.2W;
 EndCmp
 
 BeginCmp
-TimeStamp = /55252E16;
+TimeStamp = /55261A2C;
 Reference = U1;
+ValeurCmp = TRIAC;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /5526B454;
+Reference = U2;
+ValeurCmp = MOC3020M;
+IdModule  = papLib:DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5526C15C;
+Reference = U3;
 ValeurCmp = MC34063;
-IdModule  = Housings_DIP:DIP-8__300;
+IdModule  = papLib:DIP-8__300;
 EndCmp
 
 EndListe

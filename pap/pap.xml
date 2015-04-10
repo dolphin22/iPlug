@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:/Program Files/KiCad/pap/pap.sch</source>
-    <date>4/9/2015 10:37:00 AM</date>
+    <source>C:/Users/Nhan/Desktop/iPlug/pap/pap.sch</source>
+    <date>4/9/2015 8:57:09 PM</date>
     <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -68,13 +68,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55254CD3</tstamp>
     </comp>
-    <comp ref="P1">
-      <value>CONN_01X02</value>
-      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>552556D2</tstamp>
-    </comp>
     <comp ref="L2">
       <value>1uH</value>
       <footprint>Air_Coils_SML_NEOSID:Neosid_Air-Coil_SML_1turn_HDM0131A</footprint>
@@ -96,19 +89,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55257544</tstamp>
     </comp>
-    <comp ref="C2">
-      <value>100uF</value>
-      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55258773</tstamp>
-    </comp>
-    <comp ref="T1">
-      <value>TRANSFO</value>
-      <libsource lib="device" part="TRANSFO"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55256555</tstamp>
-    </comp>
     <comp ref="C5">
       <value>470uF</value>
       <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.5x8mm_RM3.5</footprint>
@@ -127,100 +107,89 @@
       <value>DS107S_SMD</value>
       <libsource lib="pap-cache" part="DS107S_SMD"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5525FBA4</tstamp>
+      <tstamp>55262DB8</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TRANSFO_3PINS</value>
+      <libsource lib="pap-cache" part="TRANSFO_3PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>552638A3</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>ESP8266_07</value>
+      <libsource lib="pap-cache" part="ESP8266_07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55261556</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MOC3023M</value>
+      <footprint>DIP-6</footprint>
+      <libsource lib="opto" part="MOC3023M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>552618BD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TRIAC</value>
+      <libsource lib="device" part="TRIAC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55261A2C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55261DD5</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X03</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>552636CA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55264956</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER3</value>
+      <libsource lib="device" part="JUMPER3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55265835</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>552670EA</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55267553</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
+    <libpart lib="conn" part="CONN_01X03">
       <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
       </footprints>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="CP">
-      <description>Polarised capacitor</description>
-      <footprints>
-        <fp>CP*</fp>
-        <fp>Elko*</fp>
-        <fp>TantalC*</fp>
-        <fp>C*elec</fp>
-        <fp>c_elec*</fp>
-        <fp>SMD*_Pol</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="D_Schottky">
-      <description>Diode schottky</description>
-      <footprints>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>Diode_*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="INDUCTOR">
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">INDUCTOR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="TRANSFO">
-      <fields>
-        <field name="Reference">T</field>
-        <field name="Value">TRANSFO</field>
-      </fields>
-      <pins>
-        <pin num="1" name="AA" type="passive"/>
-        <pin num="2" name="AB" type="passive"/>
-        <pin num="3" name="SA" type="passive"/>
-        <pin num="4" name="SB" type="passive"/>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X02">
@@ -257,6 +226,170 @@
         <pin num="8" name="Drv_Coll" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="JUMPER3">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TRIAC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TRIAC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="MOC3010M">
+      <aliases>
+        <alias>MOC3011M</alias>
+        <alias>MOC3012M</alias>
+        <alias>MOC3020M</alias>
+        <alias>MOC3021M</alias>
+        <alias>MOC3022M</alias>
+        <alias>MOC3023M</alias>
+      </aliases>
+      <description>MOC3010M, DIP6, Random Phase Opto-Triac, Vdrm 250V, Ift 15mA</description>
+      <docs>http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf</docs>
+      <footprints>
+        <fp>DIP-6*</fp>
+        <fp>SMD-6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3010M</field>
+        <field name="Footprint">DIP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pap-cache" part="ESP8266_07">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">ESP8266_07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RST" type="passive"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="passive"/>
+        <pin num="4" name="GPIO16" type="passive"/>
+        <pin num="5" name="GPIO14" type="passive"/>
+        <pin num="6" name="GPIO12" type="passive"/>
+        <pin num="7" name="GPIO13" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GPIO15" type="passive"/>
+        <pin num="11" name="GPIO2" type="passive"/>
+        <pin num="12" name="GPIO0" type="passive"/>
+        <pin num="13" name="GPIO4" type="passive"/>
+        <pin num="14" name="GPIO5" type="passive"/>
+        <pin num="15" name="RX" type="passive"/>
+        <pin num="16" name="TX" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="pap-cache" part="DS107S_SMD">
       <fields>
         <field name="Reference">BR</field>
@@ -265,8 +398,21 @@
       <pins>
         <pin num="1" name="In1" type="input"/>
         <pin num="2" name="In2" type="input"/>
-        <pin num="3" name="Out+" type="input"/>
-        <pin num="4" name="Out-" type="input"/>
+        <pin num="3" name="Out+" type="output"/>
+        <pin num="4" name="Out-" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="pap-cache" part="TRANSFO_3PINS">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRANSFO_3PINS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="input"/>
+        <pin num="2" name="AB" type="input"/>
+        <pin num="3" name="SA" type="output"/>
+        <pin num="4" name="SB" type="output"/>
+        <pin num="5" name="SC" type="output"/>
       </pins>
     </libpart>
   </libparts>
@@ -277,76 +423,147 @@
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
+    <library logical="opto">
+      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
+    </library>
     <library logical="pap-cache">
-      <uri>C:\Program Files\KiCad\pap\pap-cache.lib</uri>
+      <uri>C:\Users\Nhan\Desktop\iPlug\pap\pap-cache.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(BR1-Pad1)">
-      <node ref="BR1" pin="1"/>
-      <node ref="T1" pin="4"/>
+    <net code="1" name="Net-(H1-Pad14)">
+      <node ref="H1" pin="14"/>
     </net>
-    <net code="2" name="/PIN7">
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U1" pin="1"/>
+    <net code="2" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+      <node ref="U3" pin="4"/>
     </net>
-    <net code="3" name="Net-(C1-Pad1)">
-      <node ref="U1" pin="3"/>
-      <node ref="C1" pin="1"/>
+    <net code="3" name="Net-(H1-Pad13)">
+      <node ref="H1" pin="13"/>
     </net>
-    <net code="4" name="Net-(BR1-Pad2)">
+    <net code="4" name="/GND">
+      <node ref="BR1" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="H1" pin="9"/>
+      <node ref="H1" pin="10"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="5" name="Net-(H1-Pad16)">
+      <node ref="P4" pin="1"/>
+      <node ref="H1" pin="16"/>
+    </net>
+    <net code="6" name="Net-(H1-Pad15)">
+      <node ref="H1" pin="15"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(BR1-Pad2)">
       <node ref="BR1" pin="2"/>
       <node ref="T1" pin="3"/>
     </net>
-    <net code="5" name="/GND">
-      <node ref="C4" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="C2" pin="2"/>
-      <node ref="BR1" pin="4"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="P1" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R3" pin="2"/>
+    <net code="8" name="Net-(T1-Pad4)">
+      <node ref="T1" pin="4"/>
     </net>
-    <net code="6" name="/VCC">
-      <node ref="U1" pin="6"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="BR1" pin="3"/>
+    <net code="9" name="Net-(BR1-Pad1)">
+      <node ref="BR1" pin="1"/>
+      <node ref="T1" pin="5"/>
     </net>
-    <net code="8" name="/N">
-      <node ref="P2" pin="2"/>
-      <node ref="T1" pin="2"/>
+    <net code="10" name="Net-(H1-Pad2)">
+      <node ref="H1" pin="2"/>
     </net>
-    <net code="9" name="Net-(R2-Pad1)">
-      <node ref="U1" pin="5"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R2" pin="1"/>
+    <net code="11" name="Net-(H1-Pad4)">
+      <node ref="H1" pin="4"/>
     </net>
-    <net code="10" name="/3.3v">
+    <net code="12" name="Net-(H1-Pad5)">
+      <node ref="H1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(H1-Pad6)">
+      <node ref="H1" pin="6"/>
+    </net>
+    <net code="14" name="Net-(H1-Pad7)">
+      <node ref="H1" pin="7"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="15" name="/3.3v">
       <node ref="L2" pin="1"/>
       <node ref="C4" pin="1"/>
-      <node ref="P1" pin="1"/>
+      <node ref="H1" pin="3"/>
+      <node ref="H1" pin="8"/>
+      <node ref="R5" pin="1"/>
+      <node ref="JP1" pin="1"/>
     </net>
-    <net code="11" name="Net-(C3-Pad1)">
-      <node ref="L2" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="L1" pin="2"/>
+    <net code="16" name="Net-(H1-Pad11)">
+      <node ref="H1" pin="11"/>
     </net>
-    <net code="12" name="/PIN2">
+    <net code="17" name="Net-(H1-Pad12)">
+      <node ref="H1" pin="12"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(R4-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(P3-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(P3-Pad2)">
+      <node ref="P3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="21" name="/VCC">
+      <node ref="BR1" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="22" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="26" name="/PIN7">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="27" name="/PIN2">
+      <node ref="L1" pin="1"/>
       <node ref="D1" pin="2"/>
       <node ref="U1" pin="2"/>
-      <node ref="L1" pin="1"/>
     </net>
-    <net code="13" name="/L">
-      <node ref="T1" pin="1"/>
+    <net code="28" name="/L">
       <node ref="P2" pin="1"/>
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C3-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="30" name="/N">
+      <node ref="P2" pin="2"/>
+      <node ref="T1" pin="2"/>
     </net>
   </nets>
 </export>
